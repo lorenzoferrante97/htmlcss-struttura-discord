@@ -97,3 +97,7 @@ main > section:nth-child(even) {
     flex-basis: 240px;
     width: 80%;
 }
+
+.cta-section {
+    height: 200px;
+}
