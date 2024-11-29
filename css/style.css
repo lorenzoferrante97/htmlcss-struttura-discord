@@ -47,8 +47,11 @@ nav {
     background-color: blueviolet;
 }
 
-/* hero */
+footer {
+    background-color: aqua;
+}
 
+/* hero */
 #hero {
     background-color: aquamarine;
     padding-bottom: 40px;
