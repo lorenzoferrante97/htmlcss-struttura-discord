@@ -11,13 +11,18 @@
 .flex {
     display: flex;
 }
-
 .flex-column {
     display: flex;
     flex-direction: column;
 }
+.flex-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
 
-/* codice temporaneo per esercizio */
+/* --- codice temporaneo per esercizio --- */
 
 /* header + bottom footer content */
 .logo-box, .btn-box {
