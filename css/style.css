@@ -91,3 +91,10 @@ main > section > div > figure, main > section > div > div {
     height: 320px;
     background-color: darkgreen;
 }
+
+/* styles for last main section */
+main > section:last-child > div > figure, main > section:last-child > div > div {
+    flex-basis: 36%;
+    width: 320px;
+    background-color: darkgreen;
+}
