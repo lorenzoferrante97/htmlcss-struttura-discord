@@ -8,7 +8,7 @@
 
 /* regole flex */
 
-.flex-row {
+.flex {
     display: flex;
 }
 
@@ -18,3 +18,16 @@
 }
 
 /* codice temporaneo per esercizio */
+
+/* header + bottom footer content */
+.logo-box, .btn-box {
+    flex-basis: 120px;
+    height: 48px;
+    background-color: blue;
+}
+
+nav {
+    flex-basis: 400px;
+    height: 48px;
+    background-color: blueviolet;
+}
