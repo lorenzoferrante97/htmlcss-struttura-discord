@@ -24,6 +24,10 @@
 .main-axis-flex-end {
     justify-content: flex-end;
 }
+.perfect-center {
+    justify-content: center;
+    align-items: center;
+}
 
 /* --- codice temporaneo per esercizio --- */
 
