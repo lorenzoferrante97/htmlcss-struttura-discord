@@ -71,11 +71,17 @@ nav {
 /* main sections */
 main > section {
     width: 100%;
+    background-color: khaki;
+}
+/* main section container */
+main > section > div {
+    width: 80%;
+    margin: 0 auto;
     background-color: chartreuse;
 }
 
 /* imgs and content into the main sections */
-main > section > figure, main > section > div {
+main > section > div > figure, main > section > div > div {
     flex-basis: 36%;
     height: 320px;
     background-color: darkgreen;
