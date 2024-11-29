@@ -99,15 +99,25 @@ main > section:nth-child(even) {
 
 /* imgs and content into the main sections */
 .section-container > figure, .section-container > div {
-    flex-basis: 50%;
     height: 320px;
     background-color: darkgreen;
+}
+.section-container > figure {
+    flex-basis: 60%;
+}
+.section-container > div {
+    flex-basis: 40%;
 }
 
 /* styles for last main section */
 .section-container.last > figure, .section-container.last > div {
-    flex-basis: 240px;
     width: 80%;
+}
+.section-container.last > figure {
+    flex-basis: 320px;
+}
+.section-container.last > div {
+    flex-basis: 160px;
 }
 
 .cta-section {
