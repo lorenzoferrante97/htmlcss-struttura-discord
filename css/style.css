@@ -71,6 +71,7 @@ nav {
 /* main sections */
 main > section {
     background-color: khaki;
+    padding: 28px 0;
 }
 main > section:nth-child(even) {
     background-color: darkkhaki;
@@ -78,8 +79,10 @@ main > section:nth-child(even) {
 /* main section container */
 main > section > div {
     width: 80%;
+    height: 400px;
     margin: 0 auto;
     background-color: chartreuse;
+    gap: 28px;
 }
 
 /* imgs and content into the main sections */
