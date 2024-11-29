@@ -21,13 +21,16 @@
 .align-items-center {
     align-items: center;
 }
+.main-axis-flex-end {
+    justify-content: flex-end;
+}
 
 /* --- codice temporaneo per esercizio --- */
 
-/* header + bottom footer colors */
-
-header, #footer-bottom {
+/* header + bottom footer */
+header, #footer-bottom, #footer-top {
     background-color: bisque;
+    width: 80%;
 }
 .logo-box, .btn-box {
     flex-basis: 120px;
@@ -38,4 +41,25 @@ nav {
     flex-basis: 400px;
     height: 48px;
     background-color: blueviolet;
+}
+
+/* hero */
+
+#hero {
+    background-color: aquamarine;
+    padding-bottom: 40px;
+    gap: 40px;
+}
+
+/* hero content */
+#hero > div {
+    width: 80%;
+    flex-basis: 280px;
+    background-color: lightsteelblue;
+}
+/* button container into hero content */
+#hero > div > div {
+    width: 280px;
+    height: 80px;
+    background-color: chocolate;
 }
