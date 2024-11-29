@@ -63,3 +63,16 @@ nav {
     height: 80px;
     background-color: chocolate;
 }
+
+/* main sections */
+main > section {
+    width: 100%;
+    background-color: chartreuse;
+}
+
+/* imgs and content into the main sections */
+main > section > figure, main > section > div {
+    flex-basis: 36%;
+    height: 320px;
+    background-color: darkgreen;
+}
