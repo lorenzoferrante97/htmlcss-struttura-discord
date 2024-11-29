@@ -79,7 +79,7 @@ main > section:nth-child(even) {
 /* main section container */
 .section-container {
     width: 80%;
-    height: 400px;
+    height: 600px;
     margin: 0 auto;
     background-color: chartreuse;
     gap: 28px;
@@ -87,13 +87,13 @@ main > section:nth-child(even) {
 
 /* imgs and content into the main sections */
 .section-container > figure, .section-container > div {
-    flex-basis: 36%;
+    flex-basis: 50%;
     height: 320px;
     background-color: darkgreen;
 }
 
 /* styles for last main section */
 .section-container.last > figure, .section-container.last > div {
-    flex-basis: 36%;
-    width: 320px;
+    flex-basis: 240px;
+    width: 80%;
 }
