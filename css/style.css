@@ -49,6 +49,15 @@ nav {
 
 footer {
     background-color: aqua;
+    padding: 40px 0;
+}
+#footer-top > div {
+    flex-basis: 12%;
+    height: 48px;
+    background-color: blueviolet;
+}
+#footer-top .first {
+    flex-basis: 24%;
 }
 
 /* hero */
