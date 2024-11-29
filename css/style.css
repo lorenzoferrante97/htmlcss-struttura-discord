@@ -62,7 +62,7 @@ nav {
     background-color: lightsteelblue;
 }
 /* button container into hero content */
-#hero > div > div {
+.hero-btn-box {
     width: 280px;
     height: 80px;
     background-color: chocolate;
@@ -77,7 +77,7 @@ main > section:nth-child(even) {
     background-color: darkkhaki;
 }
 /* main section container */
-main > section > div {
+.section-container {
     width: 80%;
     height: 400px;
     margin: 0 auto;
@@ -86,15 +86,14 @@ main > section > div {
 }
 
 /* imgs and content into the main sections */
-main > section > div > figure, main > section > div > div {
+.section-container > figure, .section-container > div {
     flex-basis: 36%;
     height: 320px;
     background-color: darkgreen;
 }
 
 /* styles for last main section */
-main > section:last-child > div > figure, main > section:last-child > div > div {
+.section-container.last > figure, .section-container.last > div {
     flex-basis: 36%;
     width: 320px;
-    background-color: darkgreen;
 }
