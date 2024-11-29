@@ -70,8 +70,10 @@ nav {
 
 /* main sections */
 main > section {
-    width: 100%;
     background-color: khaki;
+}
+main > section:nth-child(even) {
+    background-color: darkkhaki;
 }
 /* main section container */
 main > section > div {
